@@ -1,0 +1,41 @@
+p{
+	color: green;
+}
+
+a {
+    color: cadetblue;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+#first-number{
+	color: blue;
+}
+
+
+.odd{
+	font-size: 25px;
+	color: orange;
+}
+
+#container div{
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+

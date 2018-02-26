@@ -1,0 +1,55 @@
+main{
+	width: 500px;
+	margin: 0 auto;
+	width: 80%;
+}
+
+section{
+
+	border: 1px solid red;
+	height: 400px;
+	box-sizing: border-box;
+}
+
+
+.content{
+	border: 1px solid black;
+	width: 30%;
+	box-sizing: border-box;
+
+}
+
+#one{
+	background-color: blue;
+}
+
+#two{
+	background-color: yellow;
+
+}
+
+.inner{
+	height: 100px;
+	background-color: red;
+
+}
+
+/*use flex wrap*/
+
+
+#three{
+	background-color: green;
+}
+
+
+.grid{
+
+	height: auto;
+}
+
+
+.griditem{
+
+	height: 100px;
+	border: 1px solid blue;
+}
