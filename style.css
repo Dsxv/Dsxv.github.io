@@ -12,6 +12,7 @@
   font-family: monospace;
 }
 
+.cut{font-size: 35px;color:white; padding-left:600px;cursor: pointer;}
 .navigation ul {
   display: flex;
   justify-content: center;

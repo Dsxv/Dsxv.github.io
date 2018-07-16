@@ -8,6 +8,8 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+ <meta name="viewport" content="width:device-width,initial-scale:1.0">
+
 </head>
 
 <body>
@@ -16,20 +18,20 @@
     <nav class="navigation">
       <ul>
         <li>
-          <a href="#home">HOME</a>
+          <a href="#" data-section="#home">HOME</a>
         </li>
         <li>
-          <a href="#about">ABOUT</a>
+          <a href="#" data-section="#about">ABOUT</a>
         </li>
         <li>
-          <a href="#resume" >RESUME</a>
+          <a href="#" data-section="#resume">RESUME</a>
         </li>
-        <li><a href="#work">WORKS</a>
+        <li><a href="#" data-section="#work">WORKS</a>
         </li>
-        <li><a href="#testimonials">TESTIMONIALS</a>
+        <li><a href="#" data-section="#testimonials">TESTIMONIALS</a>
         </li>
         <li>
-          <a href="#contacts">CONTACTS</a>
+          <a href="#" data-section="#contacts">CONTACTS</a>
         </li>
 
 
@@ -38,7 +40,8 @@
     <section id="home">
 
       <div class="top">
-        <p><b>I'm  Pawan Shukla.</b></p>
+    <div> <span class="cut">X</span>
+      <p><b>I'm  Pawan Shukla.</b></p></div>
       </div>
       <div class="top_info">
         <p>I'm an 18 y/o
@@ -61,7 +64,7 @@
         <a href="#"><img src="images/sm-vimeo-icon.png" alt="vimeo"></a>
         <a href="#"><img src="images/sm-youtube-icon.png" alt="youtube"></a>
       </div>
-      <a href="#contacts"> <img src="images/downarrow.png" alt="arrow_down" class="arrow1"></a>
+      <a href="#"data-section="#contacts" class="down"> <img src="images/downarrow.png" alt="arrow_down" class="arrow1"></a>
     </section>
   </header>
 
@@ -237,7 +240,7 @@
 
   </section>
   <footer class="footer">
-    <a href="#home"><img src="images/arrow.png" alt="arrow" class="arrow"></a>
+    <a href="#" data-section="#home" class="up"><img src="images/arrow.png" alt="arrow" class="arrow"></a>
     <div class="links">
       <a href="https://www.facebook.com/dsxv.007" target="_blank">
 <img src="images/sm-facebook-icon.png" alt="facebook" ></a>
@@ -254,7 +257,12 @@
     </div>
     <p> Edited and Coded by •<span>PAWAN SHUKLA</span></p>
   </footer>
-
+  <script
+src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js">
+  </script>
 </body>
 
 </html>
